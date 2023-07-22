@@ -43,7 +43,7 @@ const personSchema = new mongoose.Schema({
 
 // create a Person model
 
-const Person = mongoose.model('Person', personSchema);
+const Person = mongoose.model('Person', personSchema, 'contactlist');
 
 
 // step 1: Create and Save a Record of a Model
